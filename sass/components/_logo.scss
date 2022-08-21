@@ -1,0 +1,25 @@
+.logo {
+    color: $black-color;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    margin-right: 93px;
+    padding: 25px 0 24px;
+
+    .page-footer & {
+        color: $white-color;
+    }
+
+    @include transit (color);
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+}
+
+.logo__part {
+    color: $accent-color;
+}
+

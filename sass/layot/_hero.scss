@@ -1,0 +1,21 @@
+.hero {
+    max-width: 1600px;
+    padding: 200px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: $bgd-color;
+    background-image:
+        linear-gradient($translucent-bgd-color, $translucent-bgd-color),
+        url(../../images/hero.jpg);
+    
+    & .container {
+        width: 696px;
+    }
+}
+
+.hero__header {
+    @include text (inherit, center, 900, 44px, 60px, 0.06em, uppercase);
+    color: $white-color;
+    margin-bottom: 30px;
+}

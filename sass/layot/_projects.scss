@@ -1,0 +1,9 @@
+.projects {
+    @include flex;
+    flex-wrap: wrap;
+    gap: $gap;
+}
+
+.projects__item {
+    @include calc (2, $gap, 3);
+}

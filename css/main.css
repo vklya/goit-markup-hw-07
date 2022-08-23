@@ -1399,7 +1399,7 @@ footer {
   display: inline-block;
   width: 16px;
   height: 15px;
-  background-image: url(../../images/nocheck.svg);
+  background-image: url(../images/nocheck.svg);
   -webkit-transition-property: background-image;
   transition-property: background-image;
   -webkit-transition-duration: 250ms;
@@ -1408,13 +1408,13 @@ footer {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .check__box:focus + .check__icon, .check__box:hover + .check__icon {
-  background-image: url(../../images/accent-nochek.svg);
+  background-image: url(../images/accent-nochek.svg);
 }
 .check__box:checked + .check__icon {
-  background-image: url(../../images/check.svg);
+  background-image: url(../images/check.svg);
 }
 .check__box:checked:hover + .check__icon {
-  background-image: url(../../images/accent-nochek.svg);
+  background-image: url(../images/accent-nochek.svg);
 }
 
 .check__link {
